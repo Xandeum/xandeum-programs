@@ -13,7 +13,7 @@ import yaml from 'js-yaml'; // Install using `npm install js-yaml`
 (async () => {
   try {
     // Setup Solana connection
-    const connection = new Connection('http://127.0.0.1:8899', 'confirmed'); // Adjust for your localnet or testnet
+    const connection = new Connection('http://api.trynet.xandeum.com:8899', 'confirmed'); // Adjust for your localnet or testnet
 
     // Load the program ID
     const programId = new PublicKey('xSHLJPXU8QW3A9kGiRoL94bksJ7ZZPY4dUwJPAT8CVK');
